@@ -1,5 +1,5 @@
 # Mars Rover
-##Scenario
+## Scenario
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is
 curiously rectangular, must be navigated by the rovers so that their on board cameras can get a
@@ -15,7 +15,7 @@ current spot. 'M' means move forward one grid point, and maintain the same headi
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-###Input:
+### Input:
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are
 assumed to be 0,0.
 
@@ -28,6 +28,6 @@ and y co-ordinates and the rover's orientation.
 
 Each rover will be finished sequentially, which means that the second rover won't start to move
 until the first one has finished moving.
-###Output:
+### Output:
 
 The output for each rover should be its final co-ordinates and heading.
